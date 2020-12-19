@@ -1,6 +1,6 @@
 ---
 title: "About"
-permalink: /About/
+permalink: /about/
 layout: category
 author_profile: true
 last_modified_at: 2020-12-18T14:51:23-04:00
