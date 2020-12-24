@@ -38,3 +38,8 @@ First, I'd like to say that I am very proud of this project. It found many, many
 The program is fast and doesn't use very much memory at all (less than 2 MB). I made sure to construct objects using the JSON file once at the start of the program to avoid slow disk-reads. Also, the customizability of the JSON file gives the program a lot of flexibility.
 
 There are, however, things I would fix if I were to start this project today. The project uses raw pointers throughout, and although I managed the memory effectively, I realize I should be using managed pointers. In addition, I did not get to implement all of the features that I wanted. There were planned features for customizable options in the JSON file that did not make it into the "final" project. Finally, the usability of the program is somewhat limited. A few options are hardcoded in to the program, and changing them requires the program to be recompiled. In the future I would like to pull all of this out to a settings file.
+
+Another improvement I know can be made is the way permutations are tested. I went with a purely random approach,
+but a more structured search may have been more useful. It's hard to say what sort of algorithm I should have used,
+though, since the actions you can perform in the game have such chaotic effects on the end-state of the heap,
+so random permutations weren't the worst idea, but I know it could be made more efficient.
